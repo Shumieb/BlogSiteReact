@@ -5,7 +5,7 @@ function HomeHero() {
     return (
         <section className="w-[95%] mx-auto p-2 grid grid-cols-2 gap-6">
             <div className="bg-gray-50/5 backdrop-blur-none rounded-md p-4 mt-6 flex flex-col justify-center relative">
-                <p className="text-base">My Awesome Blog</p>
+                <p className="text-base text-gray-400">My Awesome Blog</p>
                 <p className="text-2xl mb-3">Welcome to my Awesome Blog</p>
                 <p className="text-xl mb-4">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,

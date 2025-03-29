@@ -13,13 +13,16 @@ function LandingPage() {
                     Consectetur dolor quisquam consequuntur odio ab cumque nam beatae tenetur vitae ut.
                     Consectetur dolor quisquam consequuntur odio ab cumque nam beatae tenetur vitae ut.
                 </p>
-                <Link
-                    to="/blogs-home"
-                    className="text-xl flex justify-center align-center"
-                >
-                    View Blogs
-                    <span className="mx-2 pt-2 rounded-sm font-bold"><FaArrowRightLong /></span>
-                </Link>
+                <div className="flex justify-center align-center">
+                    <Link
+                        to="/blogs-home"
+                        className="text-xl flex justify-center align-center hover:text-gray-400"
+                    >
+                        View Blogs
+                        <span className="mx-2 pt-2 rounded-sm font-bold"><FaArrowRightLong /></span>
+                    </Link>
+                </div>
+
                 <div className="text-2xl flex justify-center align-center py-4 mt-6">
                     <Link to="/" className="mx-2"><FaFacebook /></Link>
                     <Link to="/" className="mx-2"><FaSquareXTwitter /></Link>
