@@ -3,9 +3,6 @@ import { FaArrowRightLong, FaFacebook, FaSquareXTwitter, FaSquareSnapchat, FaIns
 
 
 function LandingPage() {
-
-    let imgUrl = "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-
     return (
         <div
             className="bg-[url(/images/LandingbgImg.jpg)] min-h-[85vh] bg-blend-overlay bg-slate-800 bg-center bg-cover flex flex-col justify-center align-center"

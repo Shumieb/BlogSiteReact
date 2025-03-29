@@ -2,7 +2,7 @@ import { Link } from "react-router"
 
 function NavBar() {
     return (
-        <header className="bg-gray-900 py-2 px-6 text-gray-50 flex justify-between align-center">
+        <header className="bg-gray-900 py-2 px-6 text-gray-50 flex justify-between align-center border-b-1 border-gray-800">
             <p className="text-2xl"><Link to="/">My BlogSite</Link></p>
             <nav>
                 <ul className="flex justify-end align-center">
